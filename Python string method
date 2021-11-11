@@ -1,0 +1,65 @@
+# PYTHON STRING
+
+x="abdulsalam"    '''can't use space '''
+
+x.isalpha()
+
+a="24355"       #true
+
+a.isdigit()
+
+b="abcd"          #true
+
+b.islower()  
+
+c="efghi"            #convert lower case to uppercase
+
+c.upper()
+
+z="ABCD"          #convert upper case to lowercase
+
+z.lower()
+
+d="        abcd"       #remove all left side space
+
+d                      #1st method
+
+'        abcd'
+
+d=d.lstrip()
+
+d
+
+x="asalam     "      #remove all right side space
+
+x=x.rstrip()         #2nd method { my method}
+
+x
+
+ord('a')     #....97     {ord will give u a number for every letter,number etc}
+
+ord('b')     #....98
+
+ord('$')     #....36
+
+chr(65)      #.....A      {chr will u a specfic letter,number etc . if u write that number}
+
+chr(97)      #.....a
+
+chr(10000)   #.....✐
+
+#---------------------------------------------------------------------------------------------------
+
+# EXPERIMENT AREA HERE             
+
+g="AGEFDC"
+
+g.lower()
+
+x="asalam     "
+
+x=x.rstrip()
+
+x
+
+chr(98)
